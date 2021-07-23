@@ -3,3 +3,7 @@
     padding: 0;
     text-decoration: none;
 }
+
+form {
+    height: 100vh;
+}
