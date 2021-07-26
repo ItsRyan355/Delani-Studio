@@ -9,8 +9,11 @@
     background-image: url(/assets/backgrounds/foot.jpg);
     height: 100vh;
     background-size: 100%;
-    background-position: center;
     background-repeat: no-repeat;
+}
+
+.style {
+    transform: translate();
 }
 
 #services {
@@ -35,3 +38,5 @@
 #prodHide {
     display: none;
 }
+
+.col-md-3 {}
