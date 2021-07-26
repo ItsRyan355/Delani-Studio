@@ -39,4 +39,9 @@
     display: none;
 }
 
-.col-md-3 {}
+#contact {
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    height: 78vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
