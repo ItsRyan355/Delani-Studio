@@ -11,3 +11,10 @@ $(document).ready(function() {
         $("#devHide").toggle();
     })
 })
+
+$(document).ready(function() {
+    $(".prod-click").click(function() {
+        $("#prodShow").toggle();
+        $("#prodHide").toggle();
+    })
+})
