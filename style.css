@@ -45,3 +45,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.col-md-6 {
+    opacity: 50%;
+}
