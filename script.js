@@ -4,3 +4,10 @@ $(document).ready(function() {
         $("#designHide").toggle();
     })
 })
+
+$(document).ready(function() {
+    $(".dev-click").click(function() {
+        $("#devShow").toggle();
+        $("#devHide").toggle();
+    })
+})
