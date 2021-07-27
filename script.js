@@ -17,4 +17,8 @@ $(document).ready(function() {
         $("#prodShow").toggle();
         $("#prodHide").toggle();
     })
+    $(".image-overlay").hover(function() {
+        $(".image-title").css("border", "solid", "black");
+        $(".image-title").css("padding", "20px");
+    })
 })

@@ -15,9 +15,9 @@
 <body>
     <!-- HOME PAGE -->
     <section id="homepage">
-        <div class="style" style="text-align: center; padding-top: 10%;">
+        <div class="style" style="text-align: center; transform: translate(1%,65%);">
             <div class="homepage">
-                <img src="/assets/logo.png" alt="">
+                <img src="/assets/logo/logo.png" alt="">
             </div>
 
             <div class="text">
@@ -26,8 +26,6 @@
             </div>
 
             <div class="mouse">
-                <br>
-                <br>
                 <img src="/assets/mouse_click.png" alt="">
             </div>
         </div>
@@ -70,7 +68,7 @@
 
                 <div class="col-md-4">
                     <div class="design-click" id="designShow">
-                        <img src="/assets/design_icon.png" alt="">
+                        <img src="/assets/services_icons/design_icon.png" alt="">
                         <p>DESIGN</p>
                     </div>
                     <div class="design-click" id="designHide">
@@ -82,7 +80,7 @@
 
                 <div class="col-md-4">
                     <div class="dev-click" id="devShow">
-                        <img src="/assets/dev_icon.png" alt="">
+                        <img src="/assets/services_icons/dev_icon.png" alt="">
                         <p>DEVELOPMENT</p>
                     </div>
                     <div class="dev-click" id="devHide">
@@ -94,7 +92,7 @@
 
                 <div class="col-md-4">
                     <div class="prod-click" id="prodShow">
-                        <img src="/assets/product_icon.png" alt="">
+                        <img src="/assets/services_icons/product_icon.png" alt="">
                         <p>PRODUCT MANAGEMENT</p>
                     </div>
                     <div class="prod-click" id="prodHide">
@@ -110,50 +108,78 @@
 
     <!-- PORTFOLIO -->
     <section id="portfolio" style="padding-bottom: 60px;">
-        <div class="portfolio">
-            <h1 style="text-align: center;">PORTFOLIO</h1>
-            <div class="row">
-                <div class="col-md-3" id="1">
-                    <img src="/assets/work1.jpg" alt="">
-                </div>
+        <div class="container">
+            <div class="portfolio">
+                <h1 style="text-align: center;">PORTFOLIO</h1>
 
-                <div class="col-md-3" id="2">
-                    <img src="/assets/work2.jpg" alt="">
-                </div>
+                <div class="row">
+                    <div class="col-md-3" id="1">
+                        <img class="image" src="/assets/portfolio/1.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title">MOVIES</p>
+                        </div>
+                    </div>
 
-
-                <div class="col-md-3" id="3">
-                    <img src="/assets/work3.jpg" alt="">
-                </div>
-
-
-                <div class="col-md-3" id="4">
-                    <img src="/assets/work4.jpg" alt="">
-                </div>
-            </div>
+                    <div class="col-md-3" id="2">
+                        <img class="image" src="/assets/portfolio/2.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title">MUSIC</p>
+                        </div>
+                    </div>
 
 
-            <div class="row">
-
-                <div class="col-md-3" id="5">
-                    <img src="/assets/work5.jpg" alt="">
-                </div>
-
-
-                <div class="col-md-3" id="6">
-                    <img src="/assets/work6.jpg" alt="">
-                </div>
+                    <div class="col-md-3" id="3">
+                        <img class="image" src="/assets/portfolio/3.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title">SECURITY</p>
+                        </div>
+                    </div>
 
 
-                <div class="col-md-3" id="7">
-                    <img src="/assets/work7.jpg" alt="">
+                    <div class="col-md-3" id="4">
+                        <img class="image" src="/assets/portfolio/4.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title">TRANSPORT</p>
+                        </div>
+                    </div>
                 </div>
 
 
-                <div class="col-md-3" id="8">
-                    <img src="/assets/work8.jpg" alt="">
-                </div>
+                <div class="row py-3">
 
+                    <div class="col-md-3" id="5">
+                        <img class="image" src="/assets/portfolio/5.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title">DESIGNS</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3" id="6">
+                        <img class="image" src="/assets/portfolio/6.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title"> WORK</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3" id="7">
+                        <img class="image" src="/assets/portfolio/7.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title"> COFFEE</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3" id="8">
+                        <img class="image" src="/assets/portfolio/8.jpg" alt="">
+                        <div class="image-overlay">
+                            <p class="image-title"> RESTAURANT</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
@@ -164,24 +190,37 @@
     <section id="contact">
         <div class="contactus">
             <h1 style="color: white; text-align: center;">CONTACT US</h1>
+            <form action="" style="text-align: center;">
+                <input style="background-color: transparent; color: white;" type="text" placeholder="Name...">
+                <input style="background-color: transparent; color: white;" type="text" placeholder="Email..."><br>
+                <textarea name="Your message" id="" cols="30" rows="10" placeholder="Your message here..." style="background-color: transparent;"></textarea>
+            </form>
 
-            <div class="row" style="text-align: center;">
-
-                <div class="col-md-6">
-                    <input type="text">
-                </div>
-                <div class="col-md-6">
-                    <input type="text ">
-                </div>
-
-            </div>
-            <div class="row" style="text-align: center;">
-                <div class="col-md-12">
-                    <input type="text">
-                </div>
-            </div>
         </div>
 
+    </section>
+    <!-- END -->
+
+    <!-- SOCIAL ICONS -->
+    <section id="social-icons" style="padding-top: 70px; text-align: center;">
+        <div class="social">
+            <footer>
+                <img src="/assets/social_icons/behance.png" alt="">
+                <img src="/assets/social_icons/dribble.png" alt="">
+                <img src="/assets/social_icons/facebook.png" alt="">
+                <img src="/assets/social_icons/flickr.png" alt="">
+                <img src="/assets/social_icons/g_plus.png" alt="">
+                <img src="/assets/social_icons/pinterest.png" alt="">
+                <img src="/assets/social_icons/skype.png" alt="">
+                <img src="/assets/social_icons/stumble_upon.png" alt="">
+                <img src="/assets/social_icons/twitter.png" alt="">
+                <img src="/assets/social_icons/you_tube.png" alt="">
+
+                <div class="ending">
+                    <p style="text-align: center;">DELANI STUDIO <br>2019</p>
+                </div>
+            </footer>
+        </div>
     </section>
     <!-- END -->
 </body>
